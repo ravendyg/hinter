@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+
+    "name": "Hinter",
+    "description": "Show hints for weird abbreviations",
+    "version": "1.0",
+    "content_scripts": [ {
+      "js": [ "dictionary.js", "ct.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file://*/*"]
+    }]
+  }
